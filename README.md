@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Purpose of This Repository
- This Repository is just a practice for trying differnt hooks and examples are given from React Hooks Course 
+ This Repository is just a practice for trying differnt hooks and examples are taken from React Hooks Course 
 
 ## Available Scripts
 
