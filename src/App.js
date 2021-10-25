@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import StarRating from "./use-state/index.js"
+import VoiceRecoder from "./use-reducer/index.js";
+import Colorify from "./use-ref/index.js";
+import CustomComponent from "./custom-hooks";
+import ShowTrees from "./use-context/index.js";
+
 import './App.css';
 
-function App() {
+
+
+function App()
+{
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>Use State</h2>
+      <StarRating />
+      <h2>Use Reducer</h2>
+      <VoiceRecoder />
+      <Colorify />
+
+      <h2>Custom Hoos</h2>
+      <CustomComponent />
+
+      <h2>Use Context</h2>
+      <ShowTrees />
     </div>
   );
 }
